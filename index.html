@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="calendar">
+      <div class="heading">
+        <div class="month">
+          <div class="month__string">JULY</div>
+          <div class="month__circle">
+            <div class="month__number">7</div>
+          </div>
+        </div>
+        <div class="year">2020</div>
+      </div>
+      <div class="content">
+        <table class="table">
+          <thead>
+            <tr class="table__head-row">
+              <th scope="col" class="table__head-col sunday_text_red">SUN</th>
+              <th scope="col" class="table__head-col">MON</th>
+              <th scope="col" class="table__head-col">TUE</th>
+              <th scope="col" class="table__head-col">WED</th>
+              <th scope="col" class="table__head-col">THU</th>
+              <th scope="col" class="table__head-col">FRI</th>
+              <th scope="col" class="table__head-col">SAT</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__body-row">
+              <td class="table__body-col">
+                <span class="day"></span>
+                <span class="day-options">
+                  <span class="day-option six-label"></span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day"></span>
+                <span class="day-options">
+                  <span class="day-option six-label"></span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day day_text_red"></span>
+                <span class="day-options">
+                  <span class="day-option six-label"></span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">1</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先負</span>
+                  <span class="day-option twenty-four">半夏生</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">2</span>
+                <span class="day-options">
+                  <span class="day-option six-label">仏滅</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">3</span>
+                <span class="day-options">
+                  <span class="day-option six-label six-label_text_red"
+                    >大安</span
+                  >
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">4</span>
+                <span class="day-options">
+                  <span class="day-option six-label">赤口</span>
+                </span>
+              </td>
+            </tr>
+            <tr class="table__body-row">
+              <td class="table__body-col">
+                <span class="day day_text_red">5</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先勝</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">6</span>
+                <span class="day-options">
+                  <span class="day-option six-label">友引</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">7</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先負</span>
+                  <span class="day-option twenty-four">小暑</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">8</span>
+                <span class="day-options">
+                  <span class="day-option six-label">仏滅</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day day_text_red">9</span>
+                <span class="day-options">
+                  <span class="day-option six-label six-label_text_red"
+                    >大安</span
+                  >
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">10</span>
+                <span class="day-options">
+                  <span class="day-option six-label">赤口</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">11</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先勝</span>
+                </span>
+              </td>
+            </tr>
+            <tr class="table__body-row">
+              <td class="table__body-col">
+                <span class="day day_text_red">12</span>
+                <span class="day-options">
+                  <span class="day-option six-label">友引</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">13</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先負</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">14</span>
+                <span class="day-options">
+                  <span class="day-option six-label">仏滅</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">15</span>
+                <span class="day-options">
+                  <span class="day-option six-label six-label_text_red"
+                    >大安</span
+                  >
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">16</span>
+                <span class="day-options">
+                  <span class="day-option six-label">関口</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">17</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先勝</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">18</span>
+                <span class="day-options">
+                  <span class="day-option six-label">友引</span>
+                </span>
+              </td>
+            </tr>
+            <tr class="table__body-row">
+              <td class="table__body-col">
+                <span class="day day_text_red">19</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先負</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">20</span>
+                <span class="day-options">
+                  <span class="day-option six-label">仏滅</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">21</span>
+                <span class="day-options">
+                  <span class="day-option six-label">赤口</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">22</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先勝</span>
+                  <span class="day-option twenty-four">大暑</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day day_text_red">23</span>
+                <span class="day-options">
+                  <span class="day-option six-label">友引</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day day_text_red">24</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先負</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">25</span>
+                <span class="day-options">
+                  <span class="day-option six-label">仏滅</span>
+                </span>
+              </td>
+            </tr>
+            <tr class="table__body-row">
+              <td class="table__body-col">
+                <span class="day day_text_red">26</span>
+                <span class="day-options">
+                  <span class="day-option six-label six-label_text_red"
+                    >大安</span
+                  >
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">27</span>
+                <span class="day-options">
+                  <span class="day-option six-label">赤口</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">28</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先勝</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">29</span>
+                <span class="day-options">
+                  <span class="day-option six-label">友引</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">30</span>
+                <span class="day-options">
+                  <span class="day-option six-label">先負</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day">31</span>
+                <span class="day-options">
+                  <span class="day-option six-label">仏滅</span>
+                </span>
+              </td>
+              <td class="table__body-col">
+                <span class="day"></span>
+                <span class="day-options">
+                  <span class="day-option six-label"></span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

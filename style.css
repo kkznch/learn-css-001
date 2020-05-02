@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: row;
+  margin: 3.2rem 4.6rem 3.2rem 1.2rem;
+}
+
+.heading {
+  flex-basis: 6rem;
+  margin-right: 1rem;
+}
+
+.month {
+  text-align: center;
+}
+
+.month__string {
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.month__circle {
+  margin: auto;
+  width: 5.2rem;
+  height: 5.2rem;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: 0.5rem;
+}
+
+.month__number {
+  vertical-align: middle;
+  color: white;
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.year {
+  text-align: center;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.content {
+  flex: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table__head-row {
+  height: 2.4rem;
+  vertical-align: top;
+}
+
+.table__head-col {
+  width: 4rem;
+  text-align: center;
+}
+
+.sunday_text_red {
+  color: red;
+}
+
+.table__body-row {
+  height: 6.8rem;
+}
+
+.table__body-col {
+  width: 3.6rem;
+  padding-left: 0.4rem;
+  padding-bottom: 3.8rem;
+  border: solid 1px black;
+  font-size: 0.2rem;
+}
+
+.day {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.day_text_red {
+  color: red;
+}
+
+.day-option:not(:first-of-type)::before {
+  content: "･";
+}
+
+.day-options {
+  vertical-align: 1rem;
+  font-size: 0.7rem;
+}
+
+.six-label_text_red {
+  color: red;
+}
